@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-void drawPyramid(int size){
+void construirePyramid(int size){
     int nb, esp,i,j,k;
     Console.WriteLine("Entrez le nombre de lignes: ");
     nb = int.Parse(Console.ReadLine());
@@ -15,5 +15,4 @@ void drawPyramid(int size){
 		Console.Write ("\n");
 	}
 }
-drawPyramid(3);
-
+construirePyramid(3);
